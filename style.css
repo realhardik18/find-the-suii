@@ -44,6 +44,23 @@
 }
 
 .button1:hover {
-  background-color: #608c3f;
+  background-color: #0ed145;
   color: white;
+}
+
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-to-play {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  color: whitesmoke;
+}
+
+.instructions {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  color: #0ed145;
 }
