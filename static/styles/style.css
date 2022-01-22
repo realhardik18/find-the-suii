@@ -1,0 +1,66 @@
+.title {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: x-large;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.siu {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: xx-large;
+    color: #ffe600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.info {
+    font-size: large;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: #ffe697;
+    text-align: center;
+}
+
+.button {
+    background-color: #c3102b;
+    border: none;
+    color: #7b0101;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+
+.button1 {
+    background-color: #ffe500;
+    color: black;
+    border: 5px solid whitesmoke;
+}
+
+.button1:hover {
+    background-color: #0ed145;
+    color: white;
+}
+
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how-to-play {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.instructions {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: x-large;
+    color: #0ed145;
+}
