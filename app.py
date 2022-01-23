@@ -14,6 +14,11 @@ def game():
     return render_template("game.html")
 
 
+@app.route('/result')
+def result():
+    return render_template("result.html")
+
+
 def run():
     app.run(host='0.0.0.0')
 

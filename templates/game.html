@@ -39,9 +39,11 @@
        </head>
        <body style="height: 100%; overflow: hidden;">
       <div id="sui">
-        <input type="image" src="/static/sui.gif" name="sui" style="width: 50px;height: 50px; opacity: 0.1; filter:alpha(opacity=10);" alt="sui" onclick="window.location.href='https://realhardik18.github.io'"> 
+        <input type="image" src="/static/sui.gif" name="sui" style="width: 50px;height: 50px; opacity: 0.0; filter:alpha(opacity=0);" alt="sui" onclick="window.location.href='/result'"> 
       </div>
-      <script src="/static/scripts/volume.js"></script>
+      <audio loop src="/static/Siu.mp3" id="myAudio"></audio>
+      <button id="play" onClick="playMyAudio()">Click here if your ready!</button>
+      <script src="/static/scripts/player.js"></script>
 </body>
 
 </html>
