@@ -14,7 +14,6 @@ function playMyAudio(){
         var sq_y=Math.pow(diff_y,2)
         var sum=sq_x+sq_y
         var dist= Math.sqrt(sum)
-        console.log(dist)
         
         if(dist<80){
             vol=1
@@ -40,7 +39,6 @@ function playMyAudio(){
     
         audio.volume=vol;
         document.getElementById("play").style.display="none";
-        console.log(audio.volume)
     })
 
 }
