@@ -66,8 +66,8 @@
 }
 
 .suii {
-  opacity: 0.5;
-  filter: alpha(opacity=40);
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
 
 .suii:hover {
