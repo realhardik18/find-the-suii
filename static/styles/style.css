@@ -40,7 +40,7 @@
 .button1 {
   background-color: #ffe500;
   color: black;
-  border: 5px solid whitesmoke;
+  border-radius: 10px;
 }
 
 .button1:hover {
@@ -62,7 +62,7 @@
 .instructions {
   font-family: monospace;
   font-size: x-large;
-  color: #0ed145;
+  color: #f2dfd7;
 }
 
 .suii {
