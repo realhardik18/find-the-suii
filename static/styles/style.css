@@ -64,3 +64,13 @@
   font-size: x-large;
   color: #0ed145;
 }
+
+.suii {
+  opacity: 0.5;
+  filter: alpha(opacity=40);
+}
+
+.suii:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
