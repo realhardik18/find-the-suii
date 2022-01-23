@@ -10,8 +10,38 @@
 </head>
 
 <body bgcolor="#55c233" style="height: 100%; overflow: hidden;">
-    <script src="/static/scripts/mouse.js"></script>
-    <IMG STYLE="position:absolute; TOP:40px; LEFT:1000px; WIDTH:50px; HEIGHT:50px" SRC="/static/sui.gif">
+    <style type="text/css">
+        #sui { position: relative; top: 1000px; left: 1000px; }
+    </style>    
+       <script type="text/javascript">
+      var total_height=window.screen.availHeight-100
+      var total_width=window.screen.availWidth-100
+      
+      var h = Math.floor(Math.random() * (total_height - 100) + 1)
+      var w = Math.floor(Math.random() * (total_width - 100) + 1)
+      document.onmousemove = moveIt;
+       
+        function moveIt(evnt)
+       {
+      if( !evnt )
+      evnt = window.event
+       
+      var x = w
+      var y = h
+       
+      var sui = document.getElementById("sui").style;
+      
+      sui.top = h + "px"
+      sui.left = w  + "px"
+       
+       }
+       </script>
+       </head>
+       <body style="height: 100%; overflow: hidden;">
+      <div id="sui">
+        <input type="image" src="/static/sui.gif" name="sui" style="width: 50px;height: 50px; opacity: 0.1; filter:alpha(opacity=10);" alt="sui" onclick="window.location.href='https://realhardik18.github.io'"> 
+      </div>
+      <script src="/static/scripts/volume.js"></script>
 </body>
 
 </html>
